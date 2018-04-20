@@ -8,6 +8,7 @@
 	width: 50px;
 	height: 80px;
 	margin: 2px;
+	font-size: 40px;
 }
 
 .textview {
@@ -15,4 +16,14 @@
 	margin: 5;
 	font-size: 25;
 	padding: 5px;
+}
+
+.main {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+}
+.gradientbg {
+	background: linear-gradient(to left, blue, green);
 }
