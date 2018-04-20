@@ -11,5 +11,8 @@
 }
 
 .textview {
-
+	width: 209px;
+	margin: 5;
+	font-size: 25;
+	padding: 5px;
 }
