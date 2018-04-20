@@ -3,8 +3,8 @@ function insert(num) {
 }
 
 function equal() {
-	document.form.textview.value;
+	var exp = document.form.textview.value;
 	if (exp) {
-		document.form.textview.value = eval(exp);
+		document.form.textview.value = eval(exp)
 	}
 }
